@@ -14,5 +14,8 @@ public class sample {
 		
 	}
 
-	
+	@Deprecated
+    public int a() {
+		return 1;
+	}
 }
