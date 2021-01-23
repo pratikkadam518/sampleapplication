@@ -6,6 +6,8 @@ public class sample {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Sample Maven application");
+		int a=0;
+		a=+5;
 
 	}
 
