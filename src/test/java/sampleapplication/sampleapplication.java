@@ -9,6 +9,9 @@ public class sampleapplication {
 	@Test
 	public void test() {
 		fail("Not yet implemented2");
+		
+		sample s=new sample();
+		assertEquals(4,s.add(2, 2));
 	}
 
 }
