@@ -7,15 +7,14 @@ public class sample {
 		
 		sample s=new sample();
 		System.out.println("Sample Maven application");
-		int a=0;
-		a=+5;
-		int b=s.a();
+		int ans=s.add(5, 6);
+		System.out.println(ans);
 
 		
 	}
 
-	@Deprecated
-    public int a() {
-		return 1;
+	
+    public int add(int a,int b) {
+		return a+b;
 	}
 }
